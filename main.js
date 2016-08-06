@@ -4,5 +4,17 @@ var z = x + y;
 
 document.getElementById("demo").innerHTML = z;
 
-document.getElementById("box").style.width = "10px"
+buttonReddenDiv = document.getElementById("buttonReddenDiv")
+
+buttonReddenDiv.onmousedown = function(){
+    div = document.getElementById("box")
+    div.style.backgroundColor = "red";
+};
+
+buttonReddenDiv.onmouseup = function () {
+    div = document.getElementById("box")
+    div.style.backgroundColor = "blue";
+}
+
+
 
