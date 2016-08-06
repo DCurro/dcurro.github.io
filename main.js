@@ -16,7 +16,7 @@ buttonReddenDiv.onmouseup = function () {
     div.style.backgroundColor = "blue";
 }
 
-result = httpGet("example.txt")
+result = httpGet("https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/example.txt")
 
 function httpGet(theUrl)
 {
