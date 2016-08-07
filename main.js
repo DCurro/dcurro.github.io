@@ -1,24 +1,5 @@
-var x = 5;
-var y = 6;
-var z = x + y;
 
-document.getElementById("demo").innerHTML = z;
-
-buttonReddenDiv = document.getElementById("buttonReddenDiv")
-
-buttonReddenDiv.onmousedown = function(){
-    div = document.getElementById("box")
-    div.style.backgroundColor = "red";
-};
-
-buttonReddenDiv.onmouseup = function () {
-    div = document.getElementById("box")
-    div.style.backgroundColor = "blue";
-}
-
-result = httpGet("https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/example.txt")
-
-function httpGet(theUrl)
+function httpGet(theUrl,onSuccessBlock,onFailureBlock)
 {
     if (window.XMLHttpRequest)
     {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -32,7 +13,6 @@ function httpGet(theUrl)
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            alert(xmlhttp.responseText)
             return xmlhttp.responseText;
         }
     }
