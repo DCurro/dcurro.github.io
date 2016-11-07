@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Watson Analytics for Social Media Internship: OASIS"
+date:   2016-10-26 20:40:57
+categories: machine learning
+image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/oasis.png
+---
+With a small team (three devs, one business), we were given two asks: 1) demonstrate that the state of image processing has caught up with text processing 2) Automatically locate interesting social media trends and generate an explanation why the trends occurred.
