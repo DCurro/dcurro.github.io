@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RU cp8206 course project: Road Segmentation"
-date:   2015-11-07 20:40:57
+date:   2016-02-06 20:40:57
 categories: machine learning
 image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/road_cover.png
 paper: "https://github.com/DCurro/dcurro.github.io/blob/master/_assets/RU_SoftComputing_Course_Project_Road.pdf"
