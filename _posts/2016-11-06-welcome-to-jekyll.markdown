@@ -1,25 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-11-06 20:40:57
-categories: jekyll update
+title:  "U of T csc2515 Course Project: SVHN"
+date:   2015-11-07 20:40:57
+categories: machine learning
+image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/svhn_cover.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+The classification of digits in-the-wild is a nigh solved Computer Vision problem even with the wide variety of the shapes and forms that digits can take. In this paper we attempt to obtain similar results to the state-of-the-art using a very well known and very simple Convolutional Neural Network architecture, to classify and further, to detect, house numbers from street level photos provided by the Street View House Number (SVHN) dataset. We also introduce an 11th class to the SVHN data set: background, to aid in the problem of detection.
