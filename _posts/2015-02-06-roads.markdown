@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "RU cp8206 course project: Road Segmentation"
+date:   2015-11-07 20:40:57
+categories: machine learning
+image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/road_cover.png
+paper: "https://github.com/DCurro/dcurro.github.io/blob/master/_assets/RU_SoftComputing_Course_Project_Road.pdf"
+---
+Being able to detect road for safe navigation in autonomous cars is an impor- tant problem in computer vision. Road scene segmentation is often applied in autonomous driving and pedestrian detection [7]. In this project, we apply deep learning techniques to train a convolutional neural network to segment road from non-road in images. We will be using the LeNet network as our model of choice[6], as defined in Caffe’s example MNIST Challenge solution.
