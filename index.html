@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-        <li>
+    
+    <h1 class="page-heading">Posts</h1>
+    
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li style="float:left">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             
             <h2>
@@ -16,19 +16,21 @@ layout: default
             </h2>
             
             <img style="float:left;width:48%;" src="{{post.image}}"/>
-            
+
             <div style="float:right;width:50%;">
                 {{post.excerpt}}
-                <a href="{{post.paper}}">Paper<a/>
-                    {% if post.code != nil %}
-                    |
-                    <a href="{{post.code}}">Code<a/>
-                        {% endif %}
-                        </div>
+                {% if post.paper != nil %}
+                <a href="{{post.paper}}">Paper</a>
+                {% endif %}
+                
+                {% if post.code != nil %}
+                    <a href="{{post.code}}">Code</a>
+                {% endif %}
+            </div>
         </li>
-    {% endfor %}
-  </ul>
-
-<!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
-
+        {% endfor %}
+    </ul>
+    
+    <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+    
 </div>
