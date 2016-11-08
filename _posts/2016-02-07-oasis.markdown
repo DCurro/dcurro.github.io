@@ -3,6 +3,6 @@ layout: post
 title:  "Watson Analytics for Social Media Internship: OASIS"
 date:   2016-06-26 20:40:57
 categories: machine learning
-image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/oasis.png
+image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/marketplace.png
 ---
 Modern social media analytics tools analyse only the text of the posts, and discard the rest. Leveraging modern research, we (a small team of three devs, one business) tasked with: 1) Demonstrating that the entirety of the post is more valuable than the text alone, and 2) Generating actionable social media insights by automatically discovering important moments.
