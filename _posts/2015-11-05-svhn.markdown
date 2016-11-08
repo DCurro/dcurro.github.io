@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "UT csc2515 course project: SVHN"
+title:  "UofT CSC 2515 Course Project: SVHN"
 date:   2015-11-07 20:40:57
 categories: machine learning
 image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/svhn_cover.png
-paper: "https://github.com/DCurro/dcurro.github.io/blob/master/_assets/UT_CSC2515_Course_Project_SVHN.pdf"
+paper: "dcurro.com/_assets/UT_CSC2515_Course_Project_SVHN.pdf"
 ---
 In this paper we attempt to obtain similar results to the state-of-the-art using a very well known and very simple Convolutional Neural Network architecture, to classify and further, to detect, house numbers from street level photos provided by the Street View House Number (SVHN) dataset. We also introduce an 11th class to the SVHN data set: background, to aid in the problem of detection.
