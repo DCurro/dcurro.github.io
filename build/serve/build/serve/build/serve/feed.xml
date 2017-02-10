@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liquid error: undefined method `gsub' for nil:NilClass</title>
+    <description>I am currently working on action recognition and pose esimation, using embeddings. I am also interested in sparse convolutional neural networks.
+</description>
+    <link>http://dcurro.com/</link>
+    <atom:link href="http://dcurro.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>2017-02-10 12:36:47 -0500</pubDate>
+    <lastBuildDate>2017-02-10 12:36:47 -0500</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+      <item>
+        <title>Watson Analytics for Social Media Internship: OASIS</title>
+        <description>&lt;p&gt;Modern social media analytics tools analyze only the text of the posts, and discard the rest. Leveraging modern research, we (a small team of three devs, one business) tasked with: 1) Demonstrating that the entirety of the post is more valuable than the text alone, and 2) Generating actionable social media insights by automatically discovering important moments.&lt;/p&gt;
+</description>
+        <pubDate>2016-06-26 16:40:57 -0400</pubDate>
+        <link>http://dcurro.com/machine/learning/2016/06/26/oasis.html</link>
+        <guid isPermaLink="true">http://dcurro.com/machine/learning/2016/06/26/oasis.html</guid>
+        
+        
+        <category>machine</category>
+        
+        <category>learning</category>
+        
+      </item>
+    
+      <item>
+        <title>RU CP 8206 course project: Road Segmentation</title>
+        <description>&lt;p&gt;Being able to detect road for safe navigation in autonomous cars is an impor- tant problem in computer vision. Road scene segmentation is often applied in autonomous driving and pedestrian detection [7]. In this project, we apply deep learning techniques to train a convolutional neural network to segment road from non-road in images. We will be using the LeNet network as our model of choice[6], as defined in Caffe’s example MNIST Challenge solution.&lt;/p&gt;
+</description>
+        <pubDate>2016-02-06 15:40:57 -0500</pubDate>
+        <link>http://dcurro.com/machine/learning/2016/02/06/roads.html</link>
+        <guid isPermaLink="true">http://dcurro.com/machine/learning/2016/02/06/roads.html</guid>
+        
+        
+        <category>machine</category>
+        
+        <category>learning</category>
+        
+      </item>
+    
+      <item>
+        <title>UofT CSC 2515 Course Project: SVHN</title>
+        <description>&lt;p&gt;In this paper we attempt to obtain similar results to the state-of-the-art using a very well known and very simple Convolutional Neural Network architecture, to classify and further, to detect, house numbers from street level photos provided by the Street View House Number (SVHN) dataset. We also introduce an 11th class to the SVHN data set: background, to aid in the problem of detection.&lt;/p&gt;
+</description>
+        <pubDate>2015-11-07 15:40:57 -0500</pubDate>
+        <link>http://dcurro.com/machine/learning/2015/11/07/svhn.html</link>
+        <guid isPermaLink="true">http://dcurro.com/machine/learning/2015/11/07/svhn.html</guid>
+        
+        
+        <category>machine</category>
+        
+        <category>learning</category>
+        
+      </item>
+    
+  </channel>
+</rss>
