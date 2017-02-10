@@ -2,8 +2,8 @@
 title: 
 email: d2curro@ryerson.ca
 description: > # this means to ignore newlines until "baseurl:"
-  I am currently working on action recognition and pose esimation, using deep learning.
-  I am also interested in object detection and instance based semantic segmentation.
+  I am currently working on action recognition and pose esimation, using embeddings.
+  I am also interested in sparse convolutional neural networks.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dcurro.com" # the base hostname & protocol for your site
 github_username:  dcurro
