@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "RU CP 8302 course project: DeepTutorial"
+date:   2016-02-06 20:40:57
+categories: machine learning
+image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/word_tut.png
+paper: "RU_SoftEng_Course_Project_DeepTutorial.pdf"
+---
+How do I set my default font in Microsoft Word? You can go to youtube.com to watch a tutorial, but the author will drone on and on before they get to what you're looking for. In this work, we demonstrate that a CNN can automatically find the key moment of interest in a video, using simple classification.
