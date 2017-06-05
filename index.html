@@ -24,7 +24,13 @@ layout: default
                 {% if post.paper != nil %}
                 <a href="{{post.paper}}">Paper</a>
                 {% endif %}
-                
+                {% if post.poster != nil %}
+                <a href="{{post.poster}}">Poster</a>
+                {% endif %}
+                {% if post.slides != nil %}
+                <a href="{{post.slides}}">Slides</a>
+                {% endif %}
+
                 {% if post.code != nil %}
                     <a href="{{post.code}}">Code</a>
                 {% endif %}
