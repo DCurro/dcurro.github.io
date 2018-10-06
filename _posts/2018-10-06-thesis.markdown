@@ -6,7 +6,7 @@ categories: machine learning
 image: https://raw.githubusercontent.com/DCurro/dcurro.github.io/master/_assets/query_examples_pb_and_mask.png
 paper: "Masters_Thesis.pdf"
 # poster: "ICSE_2017_Poster_Building_Usage_Profiles.pdf"
-slides: "paenammr_presentation.key"
+slides: "paenammr_presentation.pdf"
 # data: https://zenodo.org/record/321921#.WTWO31KZNmA
 ---
 Inspired by recent work in human pose metric learning this thesis explores a family of pose-aware embedding networks designed for the purpose of image similarity retrieval. Circumventing the need for direct human joint localization, a series of CNN embedding networks are trained to respect a variety of Euclidean and language-primitive metric spaces. Querying with imagery alone presents certain limitations and thus this thesis proposes a multi-modal image-language embedding space, extending the current model to allow for language-primitive queries. This additional language mode provides the benefit of improving retrieval quality by 3\% to 14\% under the hit@k metric. Finally, two approaches are constructed to address the issues of conducting partial language-primitive queries, with the former generating maximally likely descriptors and the latter exploiting the network's tendency to factorize the embedding space into (mostly) linearly separable sub-spaces. These two approaches improve upon recall by 13\% and $17\%$ over the provided baselines.
