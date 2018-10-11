@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "PyTorch Canny Edge Detector"
+date:   2016-09-01 20:40:57
+categories: machine learning
+image: https://raw.githubusercontent.com/DCurro/CannyEdgePytorch/master/final.png
+code: https://github.com/DCurro/CannyEdgePytorch
+---
+I was bored, so I made a Canny Edge Detector for the GPU using PyTorch.
