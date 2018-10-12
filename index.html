@@ -37,6 +37,10 @@ layout: default
                 {% if post.code != nil %}
                     <a href="{{post.code}}">Code</a>
                 {% endif %}
+
+                {% if post.page != nil %}
+                    <a href="{{post.page}}">Page</a>
+                {% endif %}
             </div>
         </li>
         {% endfor %}

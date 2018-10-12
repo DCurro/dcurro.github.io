@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Other game projects"
+date:   2013-01-05 20:40:57
+categories: games
+image: "more_games.png"
+page: https://dcurro.itch.io
+---
+A list of other game projects I have worked on in my spare time.
