@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "G.T. Miami"
+date:   2015-01-05 20:40:57
+categories: machine learning
+image: https://raw.githubusercontent.com/DCurro/gtmiami/master/github_images/gtmiami.gif
+code: https://github.com/DCurro/gtmiami
+---
+An attempt to recreate the magic of Grand Theft Auto I (before school got in the way...). The game is written in C++, using the SDL graphics engine and Box2D physics engine.s
